@@ -98,14 +98,14 @@ Clone the repository:
 
 Install dependencies:
 This command creates a virtual environment and installs all required libraries specified in pyproject.toml.
-poetry install
+- poetry install
 
 ## 5.3. Execution
 To run the full analysis pipeline, execute the following command from the project's root directory:
-poetry run python ncc_risk_detector/main.py
+- poetry run python ncc_risk_detector/main.py
 
 Alternatively, you can use the Makefile shortcut:
-make run
+- make run
 
 ## 5.4. How to Read the Output
 After a successful run, two files will be generated in the output/ directory:
