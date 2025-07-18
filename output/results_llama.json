@@ -1,0 +1,26 @@
+[
+  {
+    "contract_segment": "The marine-grade paint system shall provide superior protection against corrosion,",
+    "ncc_id": 10,
+    "ncc_title": "Non-Compliant Paint System",
+    "initial_similarity": 0.6036231517791748,
+    "risk_judgment": "Risk Mitigated",
+    "reasoning": "The new contract requirement, 'The marine-grade paint system shall provide superior protection against corrosion,' specifically addresses the past failure of exterior paint failing salt spray tests required for coastal operation. By specifying a marine-grade paint system that provides superior corrosion protection, the risk of similar failures is mitigated."
+  },
+  {
+    "contract_segment": "All materials and components shall comply with EN 45545 Hazard Level 3 (HL3),",
+    "ncc_id": 3,
+    "ncc_title": "Fire Protection Standard Misinterpreted",
+    "initial_similarity": 0.6733750104904175,
+    "risk_judgment": "Risk Mitigated",
+    "reasoning": "The new contract requirement to comply with EN 45545 Hazard Level 3 (HL3) addresses the past failure, which was due to the design following HL2 instead of HL3. By mandating compliance with HL3, the risk of using materials that do not meet the required hazard level is significantly reduced."
+  },
+  {
+    "contract_segment": "Electromagnetic compatibility is crucial for reliable operation of all train systems and",
+    "ncc_id": 7,
+    "ncc_title": "Insufficient EMC Shielding",
+    "initial_similarity": 0.684499979019165,
+    "risk_judgment": "Risk Mitigated",
+    "reasoning": "The new contract requirement specifically highlights the importance of electromagnetic compatibility, which was a root cause of the past failure. By emphasizing EMC shielding, the requirement directly addresses the issue that led to interference in the train's communication system. This should effectively mitigate the risk of similar failures occurring in the future."
+  }
+]

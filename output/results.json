@@ -1,0 +1,41 @@
+[
+  {
+    "contract_segment": "The marine-grade paint system shall provide superior protection against corrosion,",
+    "matches": [
+      {
+        "ncc_id": 10,
+        "ncc_title": "Non-Compliant Paint System",
+        "similarity": 0.6036231517791748,
+        "nli_label": "NEUTRAL",
+        "nli_score": 0.720432698726654,
+        "risk_judgment": "Uncertain / Needs Manual Review"
+      }
+    ]
+  },
+  {
+    "contract_segment": "All materials and components shall comply with EN 45545 Hazard Level 3 (HL3),",
+    "matches": [
+      {
+        "ncc_id": 3,
+        "ncc_title": "Fire Protection Standard Misinterpreted",
+        "similarity": 0.6733750104904175,
+        "nli_label": "NEUTRAL",
+        "nli_score": 0.8342564702033997,
+        "risk_judgment": "Uncertain / Needs Manual Review"
+      }
+    ]
+  },
+  {
+    "contract_segment": "Electromagnetic compatibility is crucial for reliable operation of all train systems and",
+    "matches": [
+      {
+        "ncc_id": 7,
+        "ncc_title": "Insufficient EMC Shielding",
+        "similarity": 0.684499979019165,
+        "nli_label": "NEUTRAL",
+        "nli_score": 0.9828571081161499,
+        "risk_judgment": "Uncertain / Needs Manual Review"
+      }
+    ]
+  }
+]

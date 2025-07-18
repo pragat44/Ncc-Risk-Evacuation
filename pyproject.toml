@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ncc-risk-detector"
+version = "0.3.0"
+description = "Contract risk detection using historical NCC data"
+authors = ["Your Name <you@example.com>"]
+packages = [{ include = "ncc_risk_detector" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "*"
+openpyxl = "*"
+PyMuPDF = "*"
+scikit-learn = "*"
+sentence-transformers = "*"
+transformers = "*"
+ollama = "^0.5.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
