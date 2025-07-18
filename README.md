@@ -94,8 +94,7 @@ You must have the following software installed on your machine:
 
 ## 5.2. Installation & Setup
 Clone the repository:
-- git clone <your-repo-url>
-- cd <your-repo-name>
+- git clone <https://github.com/pragat44/Ncc-Risk-Evacuation.git>
 
 Install dependencies:
 This command creates a virtual environment and installs all required libraries specified in pyproject.toml.
@@ -105,7 +104,7 @@ poetry install
 To run the full analysis pipeline, execute the following command from the project's root directory:
 poetry run python ncc_risk_detector/main.py
 
-Alternatively, you can use the Makefile shortcut (if make is installed):
+Alternatively, you can use the Makefile shortcut:
 make run
 
 ## 5.4. How to Read the Output
